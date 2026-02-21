@@ -5,7 +5,7 @@ import requests
 
 # --- 配置区 ---
 KEYWORDS = ['"Vision-Language-Action"', '"VLM"', '"LLM Reinforcement Learning"', '"LLM Agent"', '"VLM Agent"']
-MAX_RESULTS = 10
+MAX_RESULTS = 20
 # 建议在 GitHub Secrets 中配置你的 API Key (如 OpenAI 或 DeepSeek)
 API_KEY = os.getenv("LLM_API_KEY") 
 API_URL = "https://api.openai.com/v1/chat/completions" # 或其他兼容接口
